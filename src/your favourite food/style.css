@@ -1,0 +1,48 @@
+.your_favorite_section {
+  margin-bottom: 160px;
+}
+
+h1 {
+  padding-top: 86px;
+  font-size: 72px;
+  color: white;
+  text-align: center;
+  letter-spacing: 8.3px;
+  margin-bottom: 5px;
+}
+
+h1 .small_weight {
+  font-weight: 300;
+}
+.subtitle_wrapper {
+  margin: 0 auto;
+  padding-top: 6px;
+  text-align: center;
+  padding: 0 10px;
+  max-width: 595px;
+  min-height: 52px;
+}
+.your_favorie_subtitle {
+  font-size: 16px;
+  font-weight: 400px;
+  color: #ffffff;
+  opacity: 0.7;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+
+.your_favorite_button_position {
+  display: flex;
+  justify-content: center;
+}
+
+.button_big {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+  padding: 25px 58px;
+}
+
+.your_favorite_info_postion {
+  padding-top: 74px;
+}

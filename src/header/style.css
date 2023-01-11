@@ -1,0 +1,40 @@
+.header_wrapper {
+  width: 100%;
+  height: 80px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  margin-right: 9px;
+}
+nav {
+  margin-left: auto;
+}
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+.header_ul {
+  display: flex;
+}
+.nav_list {
+  font-size: 13px;
+  margin-right: 43px;
+}
+.nav_list:last-child {
+  margin-right: 9px;
+}
+.nav_list:hover {
+  color: #34c759;
+}
+hr {
+  position: absolute;
+  top: auto;
+  left: 0;
+  width: 100%;
+  margin-top: 3px;
+  margin-bottom: 0;
+  opacity: 0.1;
+}
