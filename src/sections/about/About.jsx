@@ -1,13 +1,13 @@
 import React, { useRef } from "react";
-import SectionTitle from "../sectiontitle/SectionTitle";
+import SectionTitle from "../../component/sectionTitle/SectionTitle";
 import { BsArrowLeftCircle, BsArrowRightCircle } from "react-icons/bs";
-import "./style.css";
+import style from "./about.module.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-import Fish from "../img/fish.png";
-import Egg from "../img/egg.png";
+import Fish from "../../img/fish.png";
+import Egg from "../../img/egg.png";
 
 export default function About() {
   const slider = useRef(null);
@@ -34,20 +34,22 @@ export default function About() {
     slidesToScroll: 1,
   };
   return (
-    <section className="about_section">
-      <div className="about_wrapper">
-        <div className="section_about_title_position">
+    <section className={style.about_section}>
+      <div className={style.about_wrapper}>
+        <div className={style.section_about_title_position}>
           <SectionTitle
             title={"ABOUT"}
             subtitle={"The Basics Of Healthy Food"}
+            underline={"none"}
+            subtitleStyle={"small"}
           />
         </div>
-        <p className="about_subtitle">
+        <p className={style.about_subtitle}>
           In aliqua ea ullamco ad est ex non deserunt nulla. Consectetur sint ea
           aliquip aliquip consectetur <br /> voluptate est. Eu minim dolore
           laboris enim mollit voluptate irure esse aliquip.
         </p>
-        <div className="about_slider_wrapper">
+        <div className={style.about_slider_wrapper}>
           {/* <button onCLick={slider?.slickPrev}>
             <BsArrowLeftCircle />
           </button> */}

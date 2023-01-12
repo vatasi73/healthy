@@ -1,0 +1,38 @@
+.section_title_position {
+  text-align: center;
+}
+.section_title {
+  font-weight: 900;
+  font-size: 100px;
+  letter-spacing: 7.5px;
+  color: #303030;
+  z-index: 1;
+}
+.first_section_subtitle {
+  font-size: 30px;
+}
+.section_subtitle {
+  font-weight: 400;
+  font-size: 36px;
+  letter-spacing: 6px;
+  color: #d9d9d9;
+  margin-top: -83px;
+  z-index: 2;
+}
+.subtitle_small {
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 6px;
+  color: #d9d9d9;
+  margin-top: -83px;
+  z-index: 2;
+}
+
+.green_underline {
+  width: 60px;
+  height: 2px;
+  margin-top: 52px;
+  border: none;
+  color: var(--colorPrimary);
+  background-color: var(--colorPrimary);
+}

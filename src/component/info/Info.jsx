@@ -2,7 +2,7 @@ import React from "react";
 import { AiFillClockCircle } from "react-icons/ai";
 import { BsFillCursorFill } from "react-icons/bs";
 import { MdPhone } from "react-icons/md";
-import "./style.css";
+import style from "./info.module.css";
 export default function Info() {
   const info = [
     {
@@ -22,12 +22,12 @@ export default function Info() {
     },
   ];
   return (
-    <div className="info_position">
+    <div className={style.info_position}>
       {info.map((el, i) => (
-        <div className="info_wrapper" key={i}>
-          <span className="ico">{el.ico}</span>
-          <h5 className="info_title">{el.title}</h5>
-          <p className="info_subtitle">{el.subtitle}</p>
+        <div className={style.info_wrapper} key={i}>
+          <span className={style.ico}>{el.ico}</span>
+          <h5 className={style.info_title}>{el.title}</h5>
+          <p className={style.info_subtitle}>{el.subtitle}</p>
         </div>
       ))}
     </div>

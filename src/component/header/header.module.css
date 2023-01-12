@@ -29,7 +29,7 @@ a {
 .nav_list:hover {
   color: #34c759;
 }
-hr {
+.header_undreline {
   position: absolute;
   top: auto;
   left: 0;

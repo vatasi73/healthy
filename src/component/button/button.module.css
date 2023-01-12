@@ -1,4 +1,4 @@
-button {
+.button {
   text-align: center;
   box-sizing: border-box;
   border-radius: 43px;
@@ -8,8 +8,15 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   background: #34c759;
-  border: solid 2px #34c759;
-  color: #1a1a1a;
+  border: solid 2px var(--colorPrimary);
+  color: var(--colorBlack);
+}
+
+.button_big {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+  padding: 25px 58px;
 }
