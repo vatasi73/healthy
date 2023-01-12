@@ -2,6 +2,7 @@ import About from "./sections/about/About";
 import Header from "./component/header/Header";
 import YourFavouriteFood from "./sections/yourFavouriteFood/YourFavouriteFood";
 import Work from "./sections/work/Work";
+import Dishes from "./sections/dishes/Dishes";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <YourFavouriteFood />
         <About />
         <Work />
+        <Dishes />
       </main>
     </div>
   );
