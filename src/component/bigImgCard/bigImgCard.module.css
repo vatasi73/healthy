@@ -1,0 +1,63 @@
+.BigImgCard {
+  position: relative;
+  max-width: 540px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(../../img/BigImgCard.png);
+  padding: 0 60px;
+  padding-bottom: 30px;
+}
+
+.BigImgCard_meal {
+  width: 90px;
+  color: #ffffff;
+  background: rgba(26, 26, 26, 0.7);
+  font-weight: 600;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  padding: 5px 0;
+  margin: 0 auto;
+
+  border-radius: 4px;
+  margin-bottom: 74px;
+}
+.BigImgCard_meal_title {
+  text-align: center;
+}
+.BigImgCard_subtitle {
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}
+.BigImgCard_title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  color: #ffffff;
+  padding-top: 28px;
+  padding-bottom: 54px;
+}
+.BigImgCard_bottom_content {
+  display: flex;
+  width: 139px;
+  padding-top: 70px;
+  padding-bottom: 34px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+.BigImgCard_span {
+  font-weight: 700;
+  font-size: 12px;
+}
+.ico_size {
+  font-size: 24px;
+}
+.BigImgCard_content_position {
+  padding-top: 60px;
+}

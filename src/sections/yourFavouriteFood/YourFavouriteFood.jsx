@@ -20,7 +20,7 @@ export default function YourFavouriteFood() {
       <div className={style.your_favorite_button_position}>
         <Button title={"Order Now"} />
       </div>
-      <div className="your_favorite_info_postion">
+      <div className={style.your_favorite_info_postion}>
         <Info />
       </div>
     </section>

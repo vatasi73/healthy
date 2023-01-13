@@ -1,0 +1,10 @@
+.section_recipes {
+  margin-bottom: 108px;
+}
+.section_recipes_title_position {
+  padding-bottom: 50px;
+}
+.section_recipes_content_wrapper {
+  display: flex;
+  justify-content: space-between;
+}

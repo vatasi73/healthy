@@ -1,0 +1,32 @@
+.chef_card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 350px);
+  gap: 30px;
+  justify-content: center;
+  padding-top: 32px;
+}
+
+.chef_card_top_wrapper {
+  display: flex;
+  margin-bottom: 18px;
+}
+.chef_card_img {
+  padding-right: 24px;
+}
+.chef_card_name {
+  padding-top: 7px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+}
+.chef_card_master {
+  padding-top: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.chef_card_bottom_wrapper {
+  display: flex;
+  justify-content: space-between;
+}

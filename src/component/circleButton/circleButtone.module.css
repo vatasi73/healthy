@@ -1,0 +1,27 @@
+.circleButton {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: none;
+  color: #ffffff;
+  background: rgba(26, 26, 26, 0.7);
+  cursor: pointer;
+}
+
+.circleButton:hover {
+  background: #34c759;
+  color: var(--colorBlack);
+  opacity: none;
+}
+
+.BigImgCard_content_position {
+  margin-top: 20px;
+}

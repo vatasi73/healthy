@@ -1,16 +1,10 @@
-.section_work {
-  margin-bottom: 102px;
-}
-.section_work_title_position {
-  margin-bottom: 61px;
-}
-.section_work_card_wrapper {
+.text_card_wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fill, 255px);
   gap: 30px;
   justify-content: center;
 }
-.section_work_card {
+.text_card {
   max-width: 255px;
   max-height: 206px;
   border-radius: 6px;
@@ -18,19 +12,19 @@
   background-color: #252525;
   cursor: pointer;
 }
-.section_work_card:hover {
+.text_card:hover {
   background-color: var(--colorPrimary);
 }
-.section_work_card:hover .section_work_card_title {
+.text_card:hover .section_work_card_title {
   color: #191919;
 }
-.section_work_card:hover .section_work_card_underline_green {
+.text_card:hover .section_work_card_underline_green {
   background-color: #191919;
 }
-.section_work_card:hover .section_work_card_subtitle {
+.text_card:hover .section_work_card_subtitle {
   color: #191919;
 }
-.section_work_card_title {
+.text_card_title {
   font-weight: 400;
   font-size: 22px;
   letter-spacing: -0.275px;
@@ -38,7 +32,7 @@
   color: #ffffff;
 }
 
-.section_work_card_underline_green {
+.text_card_underline_green {
   margin-left: 0;
   width: 56px;
   height: 2px;
@@ -48,7 +42,7 @@
   background-color: var(--colorPrimary);
 }
 
-.section_work_card_subtitle {
+.text_card_subtitle {
   font-weight: 400;
   font-size: 13px;
   line-height: 18px;
