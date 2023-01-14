@@ -5,6 +5,7 @@ import Work from "./sections/work/Work";
 import Dishes from "./sections/dishes/Dishes";
 import Chefs from "./sections/chefs/Chefs";
 import Recipes from "./sections/recipes/Recipes";
+import Social from "./sections/social/Social";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Dishes />
         <Chefs />
         <Recipes />
+        <Social />
       </main>
     </div>
   );
