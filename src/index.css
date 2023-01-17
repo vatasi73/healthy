@@ -34,18 +34,21 @@ li {
 
 body {
   background: #1a1a1a;
-  min-height: 1000vh;
   scroll-behavior: smooth;
   font-family: "Roboto", sans-serif;
   width: 100%;
-
   background-repeat: no-repeat;
   background-position: center top;
   background-image: url(./img/back.png);
+  margin: 0 auto;
 }
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
   padding-left: 165px;
   padding-right: 165px;
+}
+.content_position {
+  width: 100%;
+  margin: 0 auto;
 }

@@ -6,20 +6,25 @@ import Dishes from "./sections/dishes/Dishes";
 import Chefs from "./sections/chefs/Chefs";
 import Recipes from "./sections/recipes/Recipes";
 import Social from "./sections/social/Social";
+import Footer from "./component/footer/Footer";
+import FoodCard from "./component/foodCard/FoodCard";
 
 function App() {
   return (
-    <div className="wrapper">
-      <Header />
-      <main>
-        <YourFavouriteFood />
-        <About />
-        <Work />
-        <Dishes />
-        <Chefs />
-        <Recipes />
-        <Social />
-      </main>
+    <div className="content_position">
+      <div className="wrapper">
+        <Header />
+        <main>
+          <YourFavouriteFood />
+          <About />
+          <Work />
+          <Dishes />
+          <Chefs />
+          <Recipes />
+          <Social />
+        </main>
+      </div>
+      <Footer />
     </div>
   );
 }

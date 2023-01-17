@@ -1,0 +1,82 @@
+.SocialCard {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 350px);
+  gap: 30px;
+  justify-content: center;
+}
+.SocialCard_wrapper {
+  position: relative;
+  background: #252525;
+  border-radius: 6px;
+  padding: 26px;
+}
+.SocialCard_top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.SocialCard_underline {
+  position: absolute;
+  top: auto;
+  left: 0;
+  width: 100%;
+  margin-top: 22px;
+  margin-bottom: 0;
+  opacity: 0.1;
+}
+.socialCard_ico_wrapper {
+  display: flex;
+  align-items: center;
+}
+.SocialCard_ico {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px #303030;
+  border-radius: 50%;
+  font-size: 24px;
+  color: #737373;
+}
+
+.SocialCard_socialName {
+  padding-left: 18px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #bfbfbf;
+}
+.SocialCard_button_position {
+  margin-left: auto;
+}
+.SocialCard_bottom {
+  padding-left: 3px;
+  max-height: 190px;
+  overflow: auto;
+}
+.SocialCard_bottom::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 100px;
+  background-color: none;
+}
+.SocialCard_bottom::-webkit-scrollbar-thumb {
+  background-color: #303030;
+}
+.SocialCard_date {
+  font-weight: 400;
+  font-size: 14px;
+  color: #737373;
+}
+.SocialCard_subtitle {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.7);
+  padding-top: 18px;
+  padding-bottom: 14px;
+}
+.SocialCard_author {
+  color: var(--colorPrimary);
+  font-weight: 400;
+  font-size: 14px;
+}

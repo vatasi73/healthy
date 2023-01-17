@@ -1,0 +1,30 @@
+.footer {
+  background: #252525;
+  padding: 30px 0;
+}
+.footer_underline {
+  position: absolute;
+  top: auto;
+  left: 0;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 0;
+  opacity: 0.1;
+}
+.footer_bottom {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 8px;
+}
+.logo_position {
+  padding-bottom: 10px;
+}
+.logo {
+  margin-right: 9px;
+}
+.footer_subtitle {
+  font-weight: 400;
+  font-size: 12px;
+
+  color: #737373;
+}
