@@ -4,16 +4,37 @@
   gap: 30px;
   justify-content: center;
 }
+@media (max-width: 1139px) {
+  .SocialCard {
+    display: flex;
+    align-items: center;
+    flex: 500px;
+  }
+}
+@media (max-width: 849px) {
+  .SocialCard {
+    display: grid;
+  }
+}
 .SocialCard_wrapper {
   position: relative;
   background: #252525;
   border-radius: 6px;
-  padding: 26px;
+  padding-top: 26px;
+  padding-bottom: 26px;
+  padding-right: 6px;
+  transition: 1.5s ease;
+}
+.SocialCard_wrapper:hover {
+  transform: scale(1.05);
+  transition: 1.5s ease;
 }
 .SocialCard_top {
   display: flex;
   align-items: center;
   margin-bottom: 50px;
+  padding-left: 26px;
+  padding-right: 20px;
 }
 .SocialCard_underline {
   position: absolute;
@@ -53,6 +74,8 @@
   padding-left: 3px;
   max-height: 190px;
   overflow: auto;
+  padding-left: 28px;
+  padding-right: 20px;
 }
 .SocialCard_bottom::-webkit-scrollbar {
   width: 5px;

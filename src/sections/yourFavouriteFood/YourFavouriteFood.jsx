@@ -1,11 +1,12 @@
 import React from "react";
 import Button from "../../component/button/Button";
 import Info from "../../component/info/Info";
+
 import style from "./favorite.module.css";
 export default function YourFavouriteFood() {
   return (
     <section className={style.your_favorite_section}>
-      <h1>
+      <h1 className={style.main_title}>
         <span className={style.small_weight}> Your </span> Favourite Food
         <br /> <span className={style.small_weight}> Delivered</span> Hot &
         Fresh

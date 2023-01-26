@@ -1,6 +1,11 @@
 .section_dishes {
   margin-bottom: 108px;
 }
+@media (max-width: 1110px) {
+  .section_dishes {
+    margin-bottom: 40px;
+  }
+}
 .section_dishes_title_position {
   padding-bottom: 50px;
 }

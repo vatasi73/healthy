@@ -1,3 +1,8 @@
 .section_chefs {
   margin-bottom: 106px;
 }
+@media (max-width: 1110px) {
+  .section_chefs {
+    margin-bottom: 40px;
+  }
+}

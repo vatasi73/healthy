@@ -43,12 +43,19 @@ body {
   margin: 0 auto;
 }
 .wrapper {
-  max-width: 1440px;
+  max-width: 100%;
   margin: 0 auto;
-  padding-left: 165px;
-  padding-right: 165px;
+  overflow: hidden;
 }
-.content_position {
-  width: 100%;
+header {
+  max-width: 1130px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
+}
+section {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }

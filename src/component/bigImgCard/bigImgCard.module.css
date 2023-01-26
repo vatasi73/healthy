@@ -1,11 +1,17 @@
 .BigImgCard {
   position: relative;
-  max-width: 540px;
+  max-height: 510px;
   background-repeat: no-repeat;
   background-position: center top;
   background-image: url(../../img/BigImgCard.png);
-  padding: 60px 60px;
-  /* padding-bottom: 30px; */
+  background-size: cover;
+  padding: 60px 60px 60px 60px;
+  border-radius: 6px;
+  transition: 1.5s ease;
+}
+.BigImgCard:hover {
+  transform: scale(1.05);
+  transition: 1.5s ease;
 }
 
 .BigImgCard_meal {
@@ -44,7 +50,6 @@
   display: flex;
   width: 139px;
   padding-top: 70px;
-  padding-bottom: 34px;
   margin: 0 auto;
   align-items: center;
   justify-content: space-between;

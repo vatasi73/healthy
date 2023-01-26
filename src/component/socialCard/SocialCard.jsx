@@ -34,8 +34,8 @@ export default function SocialCard() {
   ];
   return (
     <div className={style.SocialCard}>
-      {socialInfo.map((el, i) => (
-        <div className={style.SocialCard_wrapper}>
+      {socialInfo.map((el) => (
+        <div className={style.SocialCard_wrapper} key={el.name}>
           <div className={style.SocialCard_top}>
             <div>
               <div className={style.socialCard_ico_wrapper}>

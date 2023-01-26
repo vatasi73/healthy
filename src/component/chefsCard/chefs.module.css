@@ -5,6 +5,29 @@
   justify-content: center;
   padding-top: 32px;
 }
+.chef_card_wrapper {
+  transition: 1.5s ease;
+}
+.chef_card_wrapper:hover {
+  transform: scale(1.05);
+  transition: 1.5s ease;
+}
+@media (max-width: 1139px) {
+  .chef_card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 759px) {
+  .chef_card {
+    display: grid;
+  }
+}
+@media (max-width: 450px) {
+  .chef_card {
+    grid-template-columns: repeat(auto-fill, 320px);
+  }
+}
 
 .chef_card_top_wrapper {
   display: flex;

@@ -17,7 +17,7 @@
 }
 
 .circleButton:hover {
-  background: #34c759;
+  background: var(--colorPrimary);
   color: var(--colorBlack);
   opacity: none;
 }

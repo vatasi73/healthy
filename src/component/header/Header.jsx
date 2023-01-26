@@ -16,18 +16,26 @@ export default function Header() {
 
         <nav>
           <ul className={style.header_ul}>
-            <a className={style.nav_list} href="/">
-              <li>Menu</li>
-            </a>
-            <a className={style.nav_list} href="/">
-              <li>Recipes</li>
-            </a>
-            <a className={style.nav_list} href="/">
-              <li>Chefs</li>
-            </a>
-            <a className={style.nav_list} href="/">
-              <li>Contacts</li>
-            </a>
+            <li className={style.nav_item}>
+              <a href="/" className={style.nav_item_link}>
+                Menu
+              </a>
+            </li>
+            <li className={style.nav_item}>
+              <a href="/" className={style.nav_item_link}>
+                Recipes
+              </a>
+            </li>
+            <li className={style.nav_item}>
+              <a href="/" className={style.nav_item_link}>
+                Chefs
+              </a>
+            </li>
+            <li className={style.nav_item}>
+              <a href="/" className={style.nav_item_link}>
+                Contacts
+              </a>
+            </li>
           </ul>
         </nav>
       </div>

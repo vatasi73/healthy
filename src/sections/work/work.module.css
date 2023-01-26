@@ -1,6 +1,11 @@
 .section_work {
   margin-bottom: 102px;
 }
+@media (max-width: 1110px) {
+  .section_work {
+    margin-bottom: 40px;
+  }
+}
 .section_work_title_position {
-  margin-bottom: 61px;
+  margin-bottom: 40px;
 }

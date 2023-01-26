@@ -19,15 +19,19 @@ a {
 .header_ul {
   display: flex;
 }
-.nav_list {
+.nav_item {
   font-size: 13px;
-  margin-right: 43px;
+  margin-right: 19px;
 }
-.nav_list:last-child {
+.nav_item:last-child {
   margin-right: 9px;
 }
-.nav_list:hover {
-  color: #34c759;
+.nav_item:hover {
+  color: var(--colorPrimary);
+  transition: 0.15s;
+}
+.nav_item_link {
+  padding: 6px 12px;
 }
 .header_undreline {
   position: absolute;

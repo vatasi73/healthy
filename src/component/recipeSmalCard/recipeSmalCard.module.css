@@ -1,5 +1,5 @@
 .RecipeSmallCard_wrapper {
-  max-width: 540px;
+  display: grid;
   height: 150px;
   background: #252525;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
@@ -7,6 +7,16 @@
   padding: 30px;
   margin-bottom: 30px;
   cursor: pointer;
+  transition: 1.5s ease;
+}
+.RecipeSmallCard_wrapper:hover {
+  transform: scale(1.05);
+  transition: 1.5s ease;
+}
+@media (max-width: 600px) {
+  .RecipeSmallCard_wrapper {
+    height: 200px;
+  }
 }
 .RecipeSmallCard_wrapper:hover {
   background-color: var(--colorPrimary);
@@ -24,6 +34,7 @@
 .RecipeSmallCard_wrapper:hover .RecipeSmallCard_bottom_content_right {
   color: #000000;
 }
+
 .RecipeSmallCard_title {
   font-weight: 400;
   font-size: 16px;

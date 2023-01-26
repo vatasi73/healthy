@@ -1,38 +1,11 @@
 import React, { useRef } from "react";
 import SectionTitle from "../../component/sectionTitle/SectionTitle";
-import { BsArrowLeftCircle, BsArrowRightCircle } from "react-icons/bs";
-import style from "./about.module.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
+import SimpleSlider from "../../component/slider/SimpleSlider";
+import { getFadeRightStyles } from "../../styles/animation";
 
-import Fish from "../../img/fish.png";
-import Egg from "../../img/egg.png";
+import style from "./about.module.css";
 
 export default function About() {
-  const slider = useRef(null);
-  const pic = [
-    {
-      img: Fish,
-    },
-    {
-      img: Egg,
-    },
-    {
-      img: Egg,
-    },
-    {
-      img: Egg,
-    },
-  ];
-  const settings = {
-    // arrows: false,
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-  };
   return (
     <section className={style.about_section}>
       <div className={style.about_wrapper}>
@@ -42,6 +15,7 @@ export default function About() {
             subtitle={"The Basics Of Healthy Food"}
             underline={"none"}
             subtitleStyle={"small"}
+            getStyles={getFadeRightStyles}
           />
         </div>
         <p className={style.about_subtitle}>
@@ -49,21 +23,7 @@ export default function About() {
           aliquip aliquip consectetur <br /> voluptate est. Eu minim dolore
           laboris enim mollit voluptate irure esse aliquip.
         </p>
-        <div className={style.about_slider_wrapper}>
-          {/* <button onCLick={slider?.slickPrev}>
-            <BsArrowLeftCircle />
-          </button> */}
-          <Slider ref={slider} {...settings}>
-            {pic.map((el, i) => (
-              <div key={i}>
-                <img src={el.img} alt="pic" />
-              </div>
-            ))}
-          </Slider>
-          {/* <button>
-            <BsArrowRightCircle onCLick={slider?.slickNext} />
-          </button> */}
-        </div>
+        <SimpleSlider />
       </div>
     </section>
   );

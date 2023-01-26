@@ -1,17 +1,19 @@
 .section_recipes {
   margin-bottom: 76px;
 }
+@media (max-width: 1110px) {
+  .section_recipes {
+    margin-bottom: 10px;
+  }
+}
+
 .section_recipes_title_position {
   margin-bottom: 60px;
-}
-.section_recipes_content_wrapper {
-  display: flex;
-  justify-content: space-between;
 }
 
 .section_recipes_content_wrapper {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 540px);
+  grid-template-columns: repeat(auto-fit, minmax(350px, 540px));
   gap: 30px;
   justify-content: center;
 }
