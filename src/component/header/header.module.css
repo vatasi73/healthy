@@ -40,7 +40,7 @@ a {
     margin-left: 0;
   }
   .active {
-    top: 0;
+    top: -30px;
   }
   .header_ul a {
     font-size: 30px;
