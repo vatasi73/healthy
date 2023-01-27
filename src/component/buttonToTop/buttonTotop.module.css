@@ -1,0 +1,26 @@
+.button_to_top {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translateX(1800%);
+  bottom: 50%;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: none;
+  border: solid 2px;
+  font-size: 25px;
+  color: #4d4d4d;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.button_to_top:hover {
+  border: solid 2px var(--colorPrimary);
+  color: var(--colorPrimary);
+  transition: 0.5s;
+}
+.to_top_arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

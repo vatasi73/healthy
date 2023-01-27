@@ -1,22 +1,12 @@
 .text_card_wrapper {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 255px);
+  display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   justify-content: center;
 }
-@media (max-width: 1139px) {
-  .text_card_wrapper {
-    display: flex;
-    flex-wrap: wrap;
-  }
-}
-@media (max-width: 849px) {
-  .text_card_wrapper {
-    display: grid;
-  }
-}
+
 .text_card {
-  max-width: 255px;
+  width: 255px;
   max-height: 206px;
   border-radius: 6px;
   padding: 22px 25px 60px 25px;

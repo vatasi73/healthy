@@ -36,6 +36,7 @@ li {
 }
 
 body {
+  position: relative;
   background: #1a1a1a;
   scroll-behavior: smooth;
   font-family: "Roboto", sans-serif;
@@ -49,6 +50,7 @@ body {
   max-width: 100%;
   margin: 0 auto;
   overflow: hidden;
+  position: relative;
 }
 header {
   max-width: 1130px;
@@ -65,24 +67,7 @@ section {
 .rec-dot {
   display: none;
 }
-/* .rec .rec-arrow {
-  background-color: #262626;
-  color: #4d4d4d;
-}
-.rec .rec-arrow:focus {
-  background-color: var(--colorPrimary);
-  color: #4d4d4d;
-}
-.rec .rec-arrow:hover {
-  background-color: var(--colorPrimary);
-  color: #4d4d4d;
-}
-.rec-arrow-right {
-  background-color: none;
-  border: 2px solid #262626;
-} */
 
-/* square buttons */
 .rec.rec-arrow {
   border-radius: 50%;
   color: rgba(255, 255, 255, 0.5);
@@ -90,7 +75,6 @@ section {
   background: none;
 }
 
-/* round buttons on hover */
 .rec.rec-arrow:hover {
   color: var(--colorPrimary);
   border: solid 2px var(--colorPrimary);
@@ -109,11 +93,5 @@ section {
 .rec.rec-arrow:focus {
   color: var(--colorPrimary);
   border: solid 2px var(--colorPrimary);
-  /* background-color: var(--colorPrimary); */
   background: none;
-}
-
-/* disable default outline on focused items */
-/* add custom outline on focused items */
-.rec-carousel-item:focus {
 }

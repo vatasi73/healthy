@@ -7,7 +7,7 @@ import Chefs from "./sections/chefs/Chefs";
 import Recipes from "./sections/recipes/Recipes";
 import Social from "./sections/social/Social";
 import Footer from "./component/footer/Footer";
-import FoodCard from "./component/foodCard/FoodCard";
+import ButtonToTop from "./component/buttonToTop/ButtonToTop";
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
           <Chefs />
           <Recipes />
           <Social />
+          <ButtonToTop />
         </main>
       </div>
       <Footer />

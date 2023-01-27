@@ -2,12 +2,16 @@ import React from "react";
 import { ReactComponent as Logo } from "../../img/Logo.svg";
 import { ReactComponent as LogoTitle } from "../../img/HEALTHY SWITCHER.svg";
 import style from "./header.module.css";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
+import { useState } from "react";
+import classNames from "classnames";
 
 export default function Header() {
+  const [toggle, setIsToggle] = useState(false);
   return (
-    <header>
+    <header className={style.header} id="menu">
       <div className={style.header_wrapper}>
-        <div>
+        <div className={style.logo_wrapper}>
           <a href="/">
             <Logo className={style.logo} />
             <LogoTitle />
@@ -15,9 +19,16 @@ export default function Header() {
         </div>
 
         <nav>
-          <ul className={style.header_ul}>
+          <ul
+            onClick={() => setIsToggle(!toggle)}
+            className={
+              toggle
+                ? [style.header_ul, style.active].join(" ")
+                : [style.header_ul]
+            }
+          >
             <li className={style.nav_item}>
-              <a href="/" className={style.nav_item_link}>
+              <a href="#menu" className={style.nav_item_link}>
                 Menu
               </a>
             </li>
@@ -39,7 +50,9 @@ export default function Header() {
           </ul>
         </nav>
       </div>
-
+      <div onClick={() => setIsToggle(!toggle)} className={style.mobile_btn}>
+        {toggle ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
+      </div>
       <hr className={style.header_undreline} />
     </header>
   );

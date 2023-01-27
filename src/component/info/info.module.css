@@ -1,24 +1,18 @@
 .info_position {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 245px);
+  display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 90px;
 }
 @media (max-width: 960px) {
   .info_position {
-    display: flex;
-    flex-wrap: wrap;
     gap: 20px 80px;
   }
 }
-@media (max-width: 500px) {
-  .info_position {
-    display: grid;
-    flex-wrap: wrap;
-  }
-}
+
 .info_wrapper {
   text-align: center;
+  width: 245px;
 }
 .ico {
   color: rgba(255, 255, 255, 0.5);

@@ -22,6 +22,6 @@ export const getFadeTopStyles = (isfadeRightInViewPort) => ({
   transform: isfadeRightInViewPort ? "" : "translateY(-100%)",
 });
 export const getFadeStyles = (isfadeRightInViewPort) => ({
-  transition: "opacity 2s",
+  // transition: "opacity 2s",
   opacity: isfadeRightInViewPort ? "1" : "0",
 });
