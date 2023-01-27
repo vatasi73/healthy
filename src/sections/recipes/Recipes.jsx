@@ -6,7 +6,7 @@ import { getFadeBottomStyles } from "../../styles/animation";
 import style from "./recipes.module.css";
 export default function Recipes() {
   return (
-    <section className={style.section_recipes}>
+    <section className={style.section_recipes} id="recipes">
       <div className={style.section_recipes_title_position}>
         <SectionTitle
           title={"RECIPES"}

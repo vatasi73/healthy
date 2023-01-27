@@ -22,17 +22,17 @@ export default function Header() {
               </a>
             </li>
             <li className={style.nav_item}>
-              <a href="/" className={style.nav_item_link}>
+              <a href="#recipes" className={style.nav_item_link}>
                 Recipes
               </a>
             </li>
             <li className={style.nav_item}>
-              <a href="/" className={style.nav_item_link}>
+              <a href="#chefs" className={style.nav_item_link}>
                 Chefs
               </a>
             </li>
             <li className={style.nav_item}>
-              <a href="/" className={style.nav_item_link}>
+              <a href="#contacts" className={style.nav_item_link}>
                 Contacts
               </a>
             </li>

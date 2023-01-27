@@ -6,7 +6,7 @@ import style from "./chefs.module.css";
 
 export default function Chefs() {
   return (
-    <section className={style.section_chefs}>
+    <section className={style.section_chefs} id="chefs">
       <SectionTitle
         title={"CHEFS"}
         subtitle={"This Month's Chefs"}

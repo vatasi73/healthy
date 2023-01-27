@@ -22,8 +22,13 @@
   background: var(--colorPrimary);
   border: solid 2px var(--colorPrimary);
   color: var(--colorBlack);
+  transition: 1.5s ease;
 }
-
+.button_big:hover {
+  transform: scale(1.05);
+  transition: 1.5s ease;
+  filter: brightness(1.2);
+}
 @media (max-width: 768px) {
   .button_big {
     font-size: 16px;
@@ -41,9 +46,6 @@
   }
 }
 
-.button_big:hover {
-  filter: brightness(1.2);
-}
 .button_small {
   font-size: 10px;
   font-weight: 600;
