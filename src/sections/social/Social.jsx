@@ -1,7 +1,7 @@
 import React from "react";
 import SectionTitle from "../../component/sectionTitle/SectionTitle";
 import SocialCard from "../../component/socialCard/SocialCard";
-import { getFadeStyles } from "../../styles/animation";
+import { getFadeRightStyles } from "../../styles/animation";
 import style from "./social.module.css";
 export default function Social() {
   return (
@@ -10,7 +10,7 @@ export default function Social() {
         <SectionTitle
           title={"SOCIAL"}
           subtitle={"We in Social"}
-          getStyles={getFadeStyles}
+          getStyles={getFadeRightStyles}
         />
       </div>
       <SocialCard />

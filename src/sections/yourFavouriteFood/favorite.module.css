@@ -30,11 +30,12 @@
     font-size: 40px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 560px) {
   .main_title {
     font-size: 32px;
   }
 }
+
 .main_title .small_weight {
   font-weight: 300;
 }

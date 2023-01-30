@@ -1,7 +1,7 @@
 import React from "react";
 import ChefsCard from "../../component/chefsCard/ChefsCard";
 import SectionTitle from "../../component/sectionTitle/SectionTitle";
-import { getFadeTopStyles } from "../../styles/animation";
+import { getFadeRightStyles } from "../../styles/animation";
 import style from "./chefs.module.css";
 
 export default function Chefs() {
@@ -10,7 +10,7 @@ export default function Chefs() {
       <SectionTitle
         title={"CHEFS"}
         subtitle={"This Month's Chefs"}
-        getStyles={getFadeTopStyles}
+        getStyles={getFadeRightStyles}
       />
       <ChefsCard />
     </section>

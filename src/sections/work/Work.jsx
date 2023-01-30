@@ -2,7 +2,7 @@ import React from "react";
 import SectionTitle from "../../component/sectionTitle/SectionTitle";
 import TextCard from "../../component/textCard/TextCard";
 import style from "./work.module.css";
-import { getFadeBottomStyles } from "../../styles/animation";
+import { getFadeRightStyles } from "../../styles/animation";
 
 export default function Work() {
   return (
@@ -11,7 +11,7 @@ export default function Work() {
         <SectionTitle
           title={"WORK"}
           subtitle={"How It Works"}
-          getStyles={getFadeBottomStyles}
+          getStyles={getFadeRightStyles}
         />
       </div>
       <TextCard />
