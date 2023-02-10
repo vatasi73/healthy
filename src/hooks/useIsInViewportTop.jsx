@@ -7,7 +7,7 @@ export default function useIsInViewportTop(ref) {
   useEffect(() => {
     function handleScroll() {
       const { bottom } = ref.current.getBoundingClientRect();
-      console.log(bottom);
+
       return setIsInViewportTop(window.innerHeight - bottom > -3500);
     }
 
